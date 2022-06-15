@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quotemachine.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title>Quote Machine</title>
+  </head>
+  <body class="container-fluid">
+    <div id="quote-box" class="card">
+      <p id="text" class="text-center">"quote loremiposum loremiposum loremiposum loremiposum loremiposum loremiposum"</p>
+      <p id="author" class="text-end">autor loremiposum</p>
+      <div class="row">
+        <div class="col-md-3">
+          <a id="tweet-quote" href="https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=" target="_blank"><i class="bi bi-twitter"></i></a>
+        </div>
+        <div class="col-md-3">
+          <a id="facebook" href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+        </div>
+        <div class="col-md-6">
+          <button id="new-quote" class="btn btn-primary">New quote</button>
+        </div>
+      </div>  
+    </div>
+    <script src="quotemachine.js"></script> 
+  </body>
+</html>
